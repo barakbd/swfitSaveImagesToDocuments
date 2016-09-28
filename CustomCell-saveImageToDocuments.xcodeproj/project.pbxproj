@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		FDB116CC1D8A416C00CD9225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB116CB1D8A416C00CD9225 /* AppDelegate.swift */; };
-		FDB116CE1D8A416C00CD9225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB116CD1D8A416C00CD9225 /* ViewController.swift */; };
-		FDB116D11D8A416C00CD9225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB116CF1D8A416C00CD9225 /* Main.storyboard */; };
+		FDB116CE1D8A416C00CD9225 /* MemoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB116CD1D8A416C00CD9225 /* MemoriesTableViewController.swift */; };
 		FDB116D41D8A416C00CD9225 /* CustomCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDB116D21D8A416C00CD9225 /* CustomCell.xcdatamodeld */; };
 		FDB116D61D8A416D00CD9225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB116D51D8A416D00CD9225 /* Assets.xcassets */; };
 		FDB116D91D8A416D00CD9225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB116D71D8A416D00CD9225 /* LaunchScreen.storyboard */; };
+		FDB116E11D8B24BE00CD9225 /* MemoryCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB116E01D8B24BE00CD9225 /* MemoryCustomCell.swift */; };
+		FDB116E31D8B26FC00CD9225 /* AddEditViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB116E21D8B26FC00CD9225 /* AddEditViewControllerDelegate.swift */; };
+		FDB116E61D8B2C5100CD9225 /* Memory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB116E41D8B2C5100CD9225 /* Memory+CoreDataProperties.swift */; };
+		FDB116E71D8B2C5100CD9225 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB116E51D8B2C5100CD9225 /* Memory.swift */; };
+		FDB116E91D8B34D200CD9225 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB116E81D8B34D200CD9225 /* AddEditViewController.swift */; };
+		FDB116EB1D8B411500CD9225 /* CancelDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB116EA1D8B411500CD9225 /* CancelDelegateProtocol.swift */; };
+		FDF47F0A1D989CD000E137E8 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF47F091D989CD000E137E8 /* ShowViewController.swift */; };
+		FDF47F0C1D98D07300E137E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF47F0B1D98D07300E137E8 /* Main.storyboard */; };
+		FDF47F0E1D98E42000E137E8 /* imageDocumentManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF47F0D1D98E42000E137E8 /* imageDocumentManagerModel.swift */; };
+		FDF47F601D9B5BEA00E137E8 /* CoreDataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF47F5F1D9B5BEA00E137E8 /* CoreDataManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FDB116C81D8A416C00CD9225 /* CustomCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB116C81D8A416C00CD9225 /* CustomCell-saveImageToDocuments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CustomCell-saveImageToDocuments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB116CB1D8A416C00CD9225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDB116CD1D8A416C00CD9225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FDB116D01D8A416C00CD9225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB116CD1D8A416C00CD9225 /* MemoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesTableViewController.swift; sourceTree = "<group>"; };
 		FDB116D31D8A416C00CD9225 /* CustomCell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomCell.xcdatamodel; sourceTree = "<group>"; };
 		FDB116D51D8A416D00CD9225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDB116D81D8A416D00CD9225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDB116DA1D8A416D00CD9225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB116E01D8B24BE00CD9225 /* MemoryCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryCustomCell.swift; sourceTree = "<group>"; };
+		FDB116E21D8B26FC00CD9225 /* AddEditViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditViewControllerDelegate.swift; sourceTree = "<group>"; };
+		FDB116E41D8B2C5100CD9225 /* Memory+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Memory+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FDB116E51D8B2C5100CD9225 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		FDB116E81D8B34D200CD9225 /* AddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		FDB116EA1D8B411500CD9225 /* CancelDelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelDelegateProtocol.swift; sourceTree = "<group>"; };
+		FDF47F091D989CD000E137E8 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		FDF47F0B1D98D07300E137E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FDF47F0D1D98E42000E137E8 /* imageDocumentManagerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageDocumentManagerModel.swift; sourceTree = "<group>"; };
+		FDF47F5F1D9B5BEA00E137E8 /* CoreDataManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +58,8 @@
 		FDB116BF1D8A416C00CD9225 = {
 			isa = PBXGroup;
 			children = (
+				FDB116E41D8B2C5100CD9225 /* Memory+CoreDataProperties.swift */,
+				FDB116E51D8B2C5100CD9225 /* Memory.swift */,
 				FDB116CA1D8A416C00CD9225 /* CustomCell */,
 				FDB116C91D8A416C00CD9225 /* Products */,
 			);
@@ -48,7 +68,7 @@
 		FDB116C91D8A416C00CD9225 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FDB116C81D8A416C00CD9225 /* CustomCell.app */,
+				FDB116C81D8A416C00CD9225 /* CustomCell-saveImageToDocuments.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,12 +77,19 @@
 			isa = PBXGroup;
 			children = (
 				FDB116CB1D8A416C00CD9225 /* AppDelegate.swift */,
-				FDB116CD1D8A416C00CD9225 /* ViewController.swift */,
-				FDB116CF1D8A416C00CD9225 /* Main.storyboard */,
+				FDB116CD1D8A416C00CD9225 /* MemoriesTableViewController.swift */,
+				FDB116E81D8B34D200CD9225 /* AddEditViewController.swift */,
+				FDF47F091D989CD000E137E8 /* ShowViewController.swift */,
+				FDF47F0B1D98D07300E137E8 /* Main.storyboard */,
 				FDB116D51D8A416D00CD9225 /* Assets.xcassets */,
 				FDB116D71D8A416D00CD9225 /* LaunchScreen.storyboard */,
 				FDB116DA1D8A416D00CD9225 /* Info.plist */,
 				FDB116D21D8A416C00CD9225 /* CustomCell.xcdatamodeld */,
+				FDB116E01D8B24BE00CD9225 /* MemoryCustomCell.swift */,
+				FDB116E21D8B26FC00CD9225 /* AddEditViewControllerDelegate.swift */,
+				FDB116EA1D8B411500CD9225 /* CancelDelegateProtocol.swift */,
+				FDF47F0D1D98E42000E137E8 /* imageDocumentManagerModel.swift */,
+				FDF47F5F1D9B5BEA00E137E8 /* CoreDataManger.swift */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -70,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDB116C71D8A416C00CD9225 /* CustomCell */ = {
+		FDB116C71D8A416C00CD9225 /* CustomCell-saveImageToDocuments */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDB116DD1D8A416D00CD9225 /* Build configuration list for PBXNativeTarget "CustomCell" */;
+			buildConfigurationList = FDB116DD1D8A416D00CD9225 /* Build configuration list for PBXNativeTarget "CustomCell-saveImageToDocuments" */;
 			buildPhases = (
 				FDB116C41D8A416C00CD9225 /* Sources */,
 				FDB116C51D8A416C00CD9225 /* Frameworks */,
@@ -82,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = CustomCell;
+			name = "CustomCell-saveImageToDocuments";
 			productName = CustomCell;
-			productReference = FDB116C81D8A416C00CD9225 /* CustomCell.app */;
+			productReference = FDB116C81D8A416C00CD9225 /* CustomCell-saveImageToDocuments.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FDB116C31D8A416C00CD9225 /* Build configuration list for PBXProject "CustomCell" */;
+			buildConfigurationList = FDB116C31D8A416C00CD9225 /* Build configuration list for PBXProject "CustomCell-saveImageToDocuments" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -115,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDB116C71D8A416C00CD9225 /* CustomCell */,
+				FDB116C71D8A416C00CD9225 /* CustomCell-saveImageToDocuments */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +154,7 @@
 			files = (
 				FDB116D91D8A416D00CD9225 /* LaunchScreen.storyboard in Resources */,
 				FDB116D61D8A416D00CD9225 /* Assets.xcassets in Resources */,
-				FDB116D11D8A416C00CD9225 /* Main.storyboard in Resources */,
+				FDF47F0C1D98D07300E137E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +165,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB116CE1D8A416C00CD9225 /* ViewController.swift in Sources */,
+				FDB116E61D8B2C5100CD9225 /* Memory+CoreDataProperties.swift in Sources */,
+				FDB116E31D8B26FC00CD9225 /* AddEditViewControllerDelegate.swift in Sources */,
+				FDB116CE1D8A416C00CD9225 /* MemoriesTableViewController.swift in Sources */,
+				FDB116E71D8B2C5100CD9225 /* Memory.swift in Sources */,
+				FDF47F601D9B5BEA00E137E8 /* CoreDataManger.swift in Sources */,
+				FDB116E91D8B34D200CD9225 /* AddEditViewController.swift in Sources */,
+				FDF47F0A1D989CD000E137E8 /* ShowViewController.swift in Sources */,
 				FDB116D41D8A416C00CD9225 /* CustomCell.xcdatamodeld in Sources */,
 				FDB116CC1D8A416C00CD9225 /* AppDelegate.swift in Sources */,
+				FDB116EB1D8B411500CD9225 /* CancelDelegateProtocol.swift in Sources */,
+				FDF47F0E1D98E42000E137E8 /* imageDocumentManagerModel.swift in Sources */,
+				FDB116E11D8B24BE00CD9225 /* MemoryCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FDB116CF1D8A416C00CD9225 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDB116D01D8A416C00CD9225 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FDB116D71D8A416D00CD9225 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -258,7 +286,7 @@
 				INFOPLIST_FILE = CustomCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = flashed.com.CustomCell;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CustomCell-saveImageToDocuments";
 			};
 			name = Debug;
 		};
@@ -269,14 +297,14 @@
 				INFOPLIST_FILE = CustomCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = flashed.com.CustomCell;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "CustomCell-saveImageToDocuments";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDB116C31D8A416C00CD9225 /* Build configuration list for PBXProject "CustomCell" */ = {
+		FDB116C31D8A416C00CD9225 /* Build configuration list for PBXProject "CustomCell-saveImageToDocuments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDB116DB1D8A416D00CD9225 /* Debug */,
@@ -285,13 +313,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDB116DD1D8A416D00CD9225 /* Build configuration list for PBXNativeTarget "CustomCell" */ = {
+		FDB116DD1D8A416D00CD9225 /* Build configuration list for PBXNativeTarget "CustomCell-saveImageToDocuments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FDB116DE1D8A416D00CD9225 /* Debug */,
 				FDB116DF1D8A416D00CD9225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

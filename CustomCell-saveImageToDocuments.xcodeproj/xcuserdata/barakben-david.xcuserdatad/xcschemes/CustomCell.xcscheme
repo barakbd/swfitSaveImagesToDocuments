@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FDB116C71D8A416C00CD9225"
-               BuildableName = "CustomCell.app"
-               BlueprintName = "CustomCell"
-               ReferencedContainer = "container:CustomCell.xcodeproj">
+               BuildableName = "CustomCell-saveImageToDocuments.app"
+               BlueprintName = "CustomCell-saveImageToDocuments"
+               ReferencedContainer = "container:CustomCell-saveImageToDocuments.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDB116C71D8A416C00CD9225"
-            BuildableName = "CustomCell.app"
-            BlueprintName = "CustomCell"
-            ReferencedContainer = "container:CustomCell.xcodeproj">
+            BuildableName = "CustomCell-saveImageToDocuments.app"
+            BlueprintName = "CustomCell-saveImageToDocuments"
+            ReferencedContainer = "container:CustomCell-saveImageToDocuments.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDB116C71D8A416C00CD9225"
-            BuildableName = "CustomCell.app"
-            BlueprintName = "CustomCell"
-            ReferencedContainer = "container:CustomCell.xcodeproj">
+            BuildableName = "CustomCell-saveImageToDocuments.app"
+            BlueprintName = "CustomCell-saveImageToDocuments"
+            ReferencedContainer = "container:CustomCell-saveImageToDocuments.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FDB116C71D8A416C00CD9225"
-            BuildableName = "CustomCell.app"
-            BlueprintName = "CustomCell"
-            ReferencedContainer = "container:CustomCell.xcodeproj">
+            BuildableName = "CustomCell-saveImageToDocuments.app"
+            BlueprintName = "CustomCell-saveImageToDocuments"
+            ReferencedContainer = "container:CustomCell-saveImageToDocuments.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
